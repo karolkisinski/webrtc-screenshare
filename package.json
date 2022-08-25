@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "concurrently \"npm:server\" \"npm:watch\"",
     "watch": "watchify src/main.js -o dist/bundle.js",
-    "server": "http-server -c-1 -a localhost -p 3000"
+    "server": "http-server -c-1 -a localhost -p 443"
   },
   "repository": {
     "type": "git",
